@@ -2,7 +2,7 @@
 
 - **Flow** for typechecking
 - **Babel** for transpiling JavaScript (to use module-system & flow)
-- **Jest** for testing & mocking
+- **Jest** for testing, mocking and coverage report
 - **nodemon** to restart node process on change
 
 ## important jobs

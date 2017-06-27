@@ -10,7 +10,8 @@
     "watch": "babel src --watch --out-dir dist",
     "build": "babel src --out-dir dist",
     "check": "flow src",
-    "test": "jest src"
+    "test": "jest --coverage",
+    "test-watch": "jest --coverage --watchAll"
   },
   "author": "",
   "license": "ISC",
