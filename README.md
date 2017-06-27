@@ -1,9 +1,8 @@
 ## minimal babel-node-starter
 
-- **Flow** for typechecking
-- **Babel** for transpiling JavaScript (to use module-system & flow)
-- **Jest** for testing, mocking and coverage report
-- **nodemon** to restart node process on change
+- [**Flow**](https://flow.org/) static typechecker for JavaScript
+- [**Babel**](https://babeljs.io/) next generation JavaScript (transpiler for module-system & flow)
+- [**Jest**](https://facebook.github.io/jest/) for testing, mocking and coverage report
 
 ## important jobs
 ```bash
