@@ -13,8 +13,8 @@
     "babel-build": "babel src --out-dir dist",
     "webpack-build": "webpack --config webpack.config.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tristan Teufel",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-jest": "^20.0.3",
