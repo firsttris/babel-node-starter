@@ -5,13 +5,15 @@
 - [**Jest**](https://facebook.github.io/jest/) for testing, mocking and coverage report
 - [**Webpack**](https://webpack.js.org/) module bundler
 
-## important jobs
+## script jobs
 ```bash
-start -- run production
-dev ---- run development
-build -- creates build
-check -- checks types
-test --- runs jest tests
+npm run / yarn
+dev ------------ run dev server, with hot-reload
+webpack-build -- creates bundled webpack build
+babel-build ---- create transpiled babel build
+flow-check ----- checks types
+test ----------- runs tests with coverage reports
+test-watch ----- runs tests with coverage & watch
 ```
 #### Sources
 ##### Flow in Webstorm:
