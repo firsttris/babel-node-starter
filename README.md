@@ -3,6 +3,7 @@
 - [**Flow**](https://flow.org/) static typechecker for JavaScript
 - [**Babel**](https://babeljs.io/) next generation JavaScript (transpiler for module-system & flow)
 - [**Jest**](https://facebook.github.io/jest/) for testing, mocking and coverage report
+- [**Webpack**](https://webpack.js.org/) module bundler
 
 ## important jobs
 ```bash

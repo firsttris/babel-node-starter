@@ -1,11 +1,4 @@
 // @flow
-export default class mathematic {
-    constructor() {
+import math from './mathematic';
 
-    }
-
-    static add(value: number, value2: number): number {
-        return value + value2;
-    }
-
-}
+console.log("The answer is: "+math.add(2,2));

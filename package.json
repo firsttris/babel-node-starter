@@ -4,26 +4,28 @@
   "description": "babel nodejs starter",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production node dist/index.js",
-    "dev": "concurrently \"npm run watch\" \"npm run nodemon\"",
+    "dev": "concurrently \"npm run babel-watch\" \"npm run nodemon\"",
     "nodemon": "nodemon \"./dist/index.js\"  --watch \"./dist\"",
-    "watch": "babel src --watch --out-dir dist",
-    "build": "babel src --out-dir dist",
-    "check": "flow src",
+    "flow-check": "flow src",
     "test": "jest --coverage",
-    "test-watch": "jest --coverage --watchAll"
+    "test-watch": "jest --coverage --watchAll",
+    "babel-watch": "babel src --watch --out-dir dist",
+    "babel-build": "babel src --out-dir dist",
+    "webpack-build": "webpack --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-jest": "^20.0.3",
+    "babel-loader": "^7.1.0",
     "babel-preset-env": "^1.5.2",
     "babel-preset-flow": "^6.23.0",
     "concurrently": "^3.5.0",
     "flow-bin": "^0.48.0",
     "flow-typed": "^2.1.2",
     "jest": "^20.0.4",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "webpack": "^3.0.0"
   }
 }

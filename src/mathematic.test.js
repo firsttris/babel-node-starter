@@ -1,5 +1,5 @@
 // @flow
-import math from './index';
+import math from './mathematic';
 
 describe('Test Description', () => {
 
