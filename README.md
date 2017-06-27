@@ -16,7 +16,7 @@ test --- runs jest tests
 #### Sources
 ##### Flow in Webstorm:
 https://blog.jetbrains.com/webstorm/2016/11/using-flow-in-webstorm/  
-in webstorm add a jest jest manually
+in webstorm add a jest test manually
 ##### Flow:
 https://github.com/facebook/flow  
 https://flow.org/en/docs/install/  
