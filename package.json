@@ -2,6 +2,13 @@
   "name": "babel-node-starter",
   "version": "1.0.0",
   "description": "babel nodejs starter",
+  "author": "Tristan Teufel",
+  "homepage": "teufel-it.de",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firsttris/babel-node-starter.git"
+  },
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run babel-watch\" \"npm run nodemon\"",
@@ -13,8 +20,6 @@
     "babel-build": "babel src --out-dir dist",
     "webpack-build": "webpack --config webpack.config.js"
   },
-  "author": "Tristan Teufel",
-  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-jest": "^20.0.3",
@@ -27,5 +32,10 @@
     "jest": "^20.0.4",
     "nodemon": "^1.11.0",
     "webpack": "^3.0.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
   }
 }
