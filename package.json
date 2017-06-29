@@ -11,14 +11,16 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm run babel-watch\" \"npm run nodemon\"",
-    "nodemon": "nodemon \"./dist/index.js\"  --watch \"./dist\"",
-    "flow-check": "flow src",
+    "dev": "nodemon --exec npm run babel-node",
+    "check-types": "flow src",
     "test": "jest --coverage",
     "test-watch": "jest --coverage --watchAll",
     "babel-watch": "babel src --watch --out-dir dist",
     "babel-build": "babel src --out-dir dist",
-    "webpack-build": "webpack --config webpack.config.js"
+    "babel-node": "babel-node src --presets=env",
+    "webpack-build": "webpack --config webpack.config.js",
+    "docker-build": "docker-compose build",
+    "docker-up": "docker-compose up"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
