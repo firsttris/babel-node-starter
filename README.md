@@ -9,7 +9,7 @@
 ## script jobs
 ```bash
 npm run / yarn
-dev ------------ run dev server, with hot-reload
+dev-server ----- run dev server, with hot-reload
 webpack-build -- creates bundled webpack build
 babel-build ---- create transpiled babel build
 check-types ---- checks types

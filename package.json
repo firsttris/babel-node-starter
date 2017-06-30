@@ -11,14 +11,14 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch src --exec npm run babel-node",
+    "dev": "nodemon --watch src --exec yarn babel-node",
     "check-types": "flow src",
     "test": "jest --coverage",
     "test-watch": "jest --coverage --watchAll",
     "babel-watch": "babel src --watch --out-dir dist",
     "babel-build": "babel src --out-dir dist",
     "babel-node": "babel-node src --presets=env",
-    "webpack-build": "webpack --config webpack.config.js",
+    "webpack-build": "rimraf dist & webpack",
     "docker-build": "docker-compose build",
     "docker-up": "docker-compose up"
   },
@@ -32,6 +32,7 @@
     "flow-typed": "^2.1.2",
     "jest": "^20.0.4",
     "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1",
     "webpack": "^3.0.0"
   },
   "jest": {
