@@ -11,13 +11,12 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch src --exec yarn babel-node",
+    "dev-server": "nodemon",
     "check-types": "flow src",
     "test": "jest --coverage",
     "test-watch": "jest --coverage --watchAll",
     "babel-watch": "babel src --watch --out-dir dist",
     "babel-build": "babel src --out-dir dist",
-    "babel-node": "babel-node src --presets=env",
     "webpack-build": "rimraf dist & webpack",
     "docker-build": "docker-compose build",
     "docker-up": "docker-compose up"
