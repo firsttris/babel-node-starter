@@ -9,8 +9,8 @@
 ## script jobs
 ```bash
 npm run / yarn
-nodemon -------- run nodemon, with hot-reload
-node-dev ------- run node-dev, with hot-reload
+nodemon -------- run server with hot-reload (nodemon)
+node-dev ------- run server with hot-reload (node-dev)
 webpack-build -- creates bundled webpack build
 babel-build ---- create transpiled babel build
 check-types ---- checks types
