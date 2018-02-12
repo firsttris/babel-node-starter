@@ -32,8 +32,5 @@ https://facebook.github.io/jest/docs/en/getting-started.html#using-babel
 ##### Babel:
 https://babeljs.io/docs/setup/#installation
 
-## Donate
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KEAR9ZC228YCL)
-
 ## License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
