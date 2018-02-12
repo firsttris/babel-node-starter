@@ -1,0 +1,8 @@
+{
+  "notify": false,
+  "extensions": {
+    "js": {
+      "name": "babel-core/register"
+    }
+  }
+}
