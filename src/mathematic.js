@@ -1,11 +1,8 @@
 // @flow
 export default class mathematic {
-    constructor() {
+  constructor() {}
 
-    }
-
-    static add(value: number, value2: number): number {
-        return value + value2;
-    }
-
+  static add(value: number, value2: number): number {
+    return value + value2;
+  }
 }

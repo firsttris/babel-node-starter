@@ -1,0 +1,11 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["eslint:recommended", "plugin:flowtype/recommended", "prettier", "eslint-config-prettier"],
+    "plugins": [
+      "flowtype",
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  }

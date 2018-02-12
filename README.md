@@ -3,6 +3,8 @@
 - [**Flow**](https://flow.org/) static typechecker for JavaScript
 - [**Babel**](https://babeljs.io/) next generation JavaScript (transpiler for module-system & flow)
 - [**Jest**](https://facebook.github.io/jest/) for testing, mocking and coverage report
+- [**Prettier**](https://prettier.io/) opinionated code formatter
+- [**EsLint**](https://eslint.org/) eslint
 - [**Webpack**](https://webpack.js.org/) module bundler
 - [**Docker**](https://www.docker.com/) create container
 
@@ -19,6 +21,9 @@ test-watch ----- runs tests with coverage & watch
 docker-build --- build docker image
 docker-up ------ run docker container in dev mode
 ```
+
+#### Flow With VScode
+https://github.com/flowtype/flow-for-vscode
 #### Sources
 ##### Flow in Webstorm:
 https://blog.jetbrains.com/webstorm/2016/11/using-flow-in-webstorm/  
