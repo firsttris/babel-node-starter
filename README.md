@@ -1,8 +1,8 @@
 ## minimal babel-node-starter
 
-Minimal Webpack NodeJs Starter Kit
+Minimal Webpack NodeJs Starter Kit :package:
 
-Contains:
+Includes
 
 - [**Flow**](https://flow.org/) static typechecker for JavaScript
 - [**Babel**](https://babeljs.io/) next generation JavaScript (transpiler for module-system & flow)
