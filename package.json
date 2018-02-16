@@ -11,19 +11,11 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
+    "dev": "node-dev src",
     "nodemon": "nodemon",
-    "node-dev": "node-dev src",
-    "check-types": "flow src",
-    "lint": "eslint src",
     "lint:fix": "eslint --fix src",
     "test": "jest --coverage",
-    "test-watch": "jest --coverage --watchAll",
-    "babel-watch": "babel src --watch --out-dir dist",
-    "babel-build": "babel src --out-dir dist",
-    "webpack-build": "webpack",
-    "docker-build": "docker-compose build",
-    "docker-up": "docker-compose up",
-    "update-dependencies": "yarn upgrade-interactive"
+    "build": "webpack"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

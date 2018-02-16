@@ -1,5 +1,9 @@
 ## minimal babel-node-starter
 
+Minimal Webpack NodeJs Starter Kit
+
+Contains:
+
 - [**Flow**](https://flow.org/) static typechecker for JavaScript
 - [**Babel**](https://babeljs.io/) next generation JavaScript (transpiler for module-system & flow)
 - [**Jest**](https://facebook.github.io/jest/) for testing, mocking and coverage report
@@ -8,23 +12,18 @@
 - [**Webpack**](https://webpack.js.org/) module bundler
 - [**Docker**](https://www.docker.com/) create container
 
-## script jobs
+## Scripts
 ```bash
 npm run / yarn
+dev ------------ run server with hot-reload (node-dev)
 nodemon -------- run server with hot-reload (nodemon)
-node-dev ------- run server with hot-reload (node-dev)
-webpack-build -- creates bundled webpack build
-babel-build ---- create transpiled babel build
-check-types ---- checks types
+build ---------- creates bundled webpack build
 test ----------- runs tests with coverage reports
-test-watch ----- runs tests with coverage & watch
-docker-build --- build docker image
-docker-up ------ run docker container in dev mode
 ```
 
+## Sources & Notes
 #### Flow With VScode
 https://github.com/flowtype/flow-for-vscode
-#### Sources
 ##### Flow in Webstorm:
 https://blog.jetbrains.com/webstorm/2016/11/using-flow-in-webstorm/  
 in webstorm add a jest test manually
